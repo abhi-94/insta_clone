@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    background-color: #fafafa;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30vh;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+}

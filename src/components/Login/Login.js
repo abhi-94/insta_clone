@@ -1,20 +1,27 @@
 import React,{useEffect} from 'react'
-import { useNavigate } from "react-router-dom";
-import LoginMain from './LoginMain'
+import { useNavigate} from "react-router-dom";
 import './Login.css'
 
 
 const Login = () => {
-//   setTimeout({
-//      alert('login page')
-//   },3000)
+  
+  const navigate = useNavigate()
+  useEffect(()=>{
+    setTimeout(()=>{
+      
+      navigate('/LoginMain')
+      
+    },2000)  
+  },[])
+
+  
   return (
     <div>
-        <div className='main'>
-        <i class="fa-brands fa-instagram" id="insta-logo"></i>
+        <div className='main' >
+        <i className="fa-brands fa-instagram" id="insta-logo" ></i>
         <p>from</p>
         <div className='meta-header'> 
-                <i class="fa-brands fa-meta" id="meta-logo"></i>
+                <i className="fa-brands fa-meta" id="meta-logo"></i>
             <span> Meta</span>
         </div>
         </div>
