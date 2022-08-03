@@ -8,7 +8,7 @@ const LoginMain = () => {
     <div>
       <div className='login-form'>
          <img src='images/Login/instagramSpelled.png' />
-         <
+         
          <input type='text' placeholder='Phone number, username or email' />
          <input type='password' placeholder='Password' />
        </div>
